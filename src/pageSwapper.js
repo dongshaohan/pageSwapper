@@ -1,12 +1,10 @@
 /**
  * pageSwapper.js 
- * @author dongsh
  * @single page swapper frame 
  * @param elem1 
  * @param elem2
  * @param option
  * @param callback
- * time 2015/2/9
  */
 (function (root, factory) {
 
