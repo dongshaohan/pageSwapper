@@ -37,8 +37,8 @@ HTML结构需要有一定的要求：
 	// callback 切换结束时回调
 
 	config = {
-        animateOne: // 默认 'slideouttoleft', 对应 css3 - animation-name
-        animateTwo: // 默认 'slideinfromright', 对应 css3 - animation-name
+        animateOne: // 默认 'slideouttoleft', 对应 css3 @-webkit-keyframes slideouttoleft
+        animateTwo: // 默认 'slideinfromright', 对应 css3 @-webkit-keyframes slideinfromright
         duration: // 默认 400,
         easing: // 默认 'ease-in-out'
     };
