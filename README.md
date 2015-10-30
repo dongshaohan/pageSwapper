@@ -1,4 +1,4 @@
-## pageSwapper
+pageSwapper
 ===================
 
 单页应用页面导航库
@@ -10,7 +10,7 @@
 纯原生js，不需要依赖其他库。
 
 
-### 如何使用
+如何使用
 -------------
 
 引入相关的CSS以及JS, 如下：
@@ -25,8 +25,22 @@ HTML结构需要有一定的要求：
 		page // 当前页
 		page // 即将切换的下一个页面，切换时生成
 
-每个page是个满屏元素, 相当于一个独立的页面。
+	// 每个page是个满屏元素, 相当于一个独立的页面。
+
+调用方法：
+
+	Swapper(elem1, elem2, config, callback);
+
+	// elem1 是DOM存在的元素
+	// elem2 是DOM还不存在的元素
+	// config可自定义
+	// callback 切换结束时回调
+
+	config = {
+        animateOne: // 默认 'slideouttoleft', 对应 css3 - animation-name
+        animateTwo: // 默认 'slideinfromright', 对应 css3 - animation-name
+        duration: // 默认 400,
+        easing: // 默认 'ease-in-out'
+    };
 
 
-#### 调用方法
--------------
