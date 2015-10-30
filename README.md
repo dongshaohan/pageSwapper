@@ -10,10 +10,16 @@
 
 ### 如何使用
 
-页面头部引入 - [page.css](https://github.com/dongshaohan/pageSwapper/src/page.css)
+引入相关的CSS以及JS, 如下：
 
-页面尾部引入 - [pageSwapper.js](https://github.com/dongshaohan/pageSwapper/src/pageSwapper.js)
+	<link rel="stylesheet" href="page.css">
 
-#### HTML
+	<script src="pageSwapper.js"></script>
+
+HTML结构需要有一定的要求：
 	
-	<body>
+	body
+		page // 当前页
+		page // 即将切换的下一个页面
+
+每个page是个满屏元素, 相当于一个独立的页面。
