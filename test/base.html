@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>基本切换</title>
+<link rel="stylesheet" href="../src/page.css">
+<link rel="stylesheet" href="test.css">
+</head>
+
+<body id="body">
+<div class="page" id="home">
+	<div class="page-top">动画效果</div>
+    <ul class="page-ul">
+    	<li class="page-item slideLeft">slide-left</li>
+    	<li class="page-item slideRight">slide-right</li>
+    	<li class="page-item scaleIn">scaleIn</li>
+    	<li class="page-item fadeIn">fadeIn</li>
+    </ul>
+    <p class="page-tip">测试时浏览器缩小至手机尺寸效果更佳</p>
+</div>
+
+<div class="page return">
+	<div class="page-top" style="cursor: pointer">返回</div>
+	<ul class="page-text">
+		<li>单页应用页面导航库。</li>
+		<li>适用于mobile web或cordova、phonegap webapp、无兼容要求单页PC应用等。</li>
+		<li>可自定义css3动画效果，提供回调接口，当前页面与下个页面切换结束后删除，永远保留一个页面。</li>
+		<li>搭配backbone更佳，纯原生js，不需要依赖其他库。</li>
+	</ul>
+</div>
+<script src="jquery.js"></script>
+<script src="../src/pageSwapper.js"></script>
+<script src="test.js"></script>
+</body>
+</html>

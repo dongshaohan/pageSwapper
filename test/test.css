@@ -1,0 +1,36 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,
+blockquote,th,td,figure {padding:0;margin:0;}
+a:active {outline: 0}
+a,input,button{ outline:none !important; }
+b, strong {font-weight: bold}
+ol,ul,li {list-style:none;}
+
+html, body {
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+}
+.page-top {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	width: 100%;
+	background-color: #777;
+	font-size: 18px;
+}
+.page-item {
+	height: 50px;
+	line-height: 50px;
+	background-color: #eee;
+	color: #000;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.page-tip {
+	padding: 15px;
+	text-align: center;
+}
+.page-text {
+	font-size: 16px;
+	padding: 15px;
+}
