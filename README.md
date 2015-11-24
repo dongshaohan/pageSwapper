@@ -7,7 +7,7 @@
 
 搭配backbone效果更佳，纯原生js，不需要依赖其他库。
 
-##[Demo](http://dongshaohan.github.io/pageSwapper/basis.html)
+###[Demo](http://dongshaohan.github.io/pageSwapper/basis.html)
 
 ##如何使用
 引入相关的CSS以及JS, 如下：
